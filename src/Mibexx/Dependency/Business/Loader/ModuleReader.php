@@ -32,7 +32,7 @@ class ModuleReader
 
         $modules = array_merge(
             $modules,
-            $this->getModuleFromPath($this->getApplicationPath() . '/vendor/mbxsdk/*/src'),
+            $this->getModuleFromPath($this->getApplicationPath() . '/vendor/mbxsdk/*/src/Mibexx'),
             $this->getModuleFromPath($this->getApplicationPath() . '/src/Mibexx'),
             $this->getModuleFromPath($this->getApplicationPath() . '/src/' . $this->getApplicationNamespace())
         );
