@@ -1,6 +1,6 @@
 {
-  "name"       : "mbxsdk/application",
-  "description": "MBX SDK Module: Application",
+  "name"       : "mbxsdk/dependency",
+  "description": "MBX SDK Module: Dependency",
   "type"       : "library",
   "license"    : "MIT",
   "authors"    : [
