@@ -1,0 +1,23 @@
+{
+  "name"       : "mbxsdk/application",
+  "description": "MBX SDK Module: Application",
+  "type"       : "library",
+  "license"    : "MIT",
+  "authors"    : [
+    {
+      "name" : "Mike Bertram",
+      "email": "contact@mibexx.de"
+    }
+  ],
+  "require"    : {
+    "silex/silex"  : "~2.0"
+  },
+  "require-dev": {
+    "codeception/codeception": "^2.3"
+  },
+  "autoload"   : {
+    "psr-4": {
+      "Mibexx\\": "src\\Mibexx"
+    }
+  }
+}
